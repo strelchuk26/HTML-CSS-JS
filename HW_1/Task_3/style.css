@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+mark {
+    background-color: #ffabac;
+    padding: 5px;
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(174, 0, 0);
+}
+
+div {
+    text-align: center;
+}

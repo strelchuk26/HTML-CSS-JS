@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    margin: 0 200px;
+    background-color: #f6f6f6;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+blockquote {
+    text-align: right;
+}
+
+strong {
+    font-family: serif;
+}
+
+p {
+    background: linear-gradient(#000, #cfcfcf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.topQuote {
+    font-style: italic;
+}
+
+.bottomQuote {
+    font-size: smaller;
+}

@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+}
+
+sup {
+    font-weight: bold;
+    color: rgb(0, 0, 173);
+}
+
+.footnote {
+    font-size: smaller;
+}
