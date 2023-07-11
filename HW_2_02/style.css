@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #646363;
+}
+
+h2, h3 {
+    display: block;
+    border-left: 5px solid;
+    border-color: #646363;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #646363;
+    padding: 10px 0;
+}
+
+article {
+    width: 90%;
+    margin: auto;
+}
+
+sup {
+    text-decoration: underline;
+}
+
+mark {
+    padding: 0 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+p {
+    font-size: 14px;
+}
+
+.img-wrapper {
+    text-align: center;
+}
+
+.wiki {
+    color: #a9a9a9;
+    font-style: italic;
+    padding: 0 20px;
+}
+
+.red {
+    background-color: #ff0100;
+}
+
+.yellow {
+    background-color: #ffff01;
+    color: #000;
+}
+
+.blue {
+    background-color: #0000ff;
+}
+
+.orange {
+    background-color: #ffa502;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.purple {
+    background-color: #800080;
+}
