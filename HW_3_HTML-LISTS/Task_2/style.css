@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-image: url(./images/unchecked_16.png);
+}
+
+li {
+    padding: 15px;
+}
+
+li::after {
+    content: '\274C';
+}
+
+.odd {
+    background-color: #a5ccda;
+}
+
+.even {
+    background-color: #add8e6;
+}
+
+.done {
+    background-color: #e2e2e2;
+    list-style-image: url(./images/checked_16.png);
+}

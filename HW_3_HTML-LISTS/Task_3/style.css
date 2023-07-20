@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+}
+
+dt {
+    font-style: italic;
+}
+
+.gray {
+    color: rgb(163, 163, 163);
+}
+
+.blue {
+    color: rgb(0, 0, 163);
+}

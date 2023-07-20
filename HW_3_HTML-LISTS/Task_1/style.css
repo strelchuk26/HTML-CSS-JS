@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+}
+
+ol {
+    color: #fff;
+    background-color: #ed9eae;
+    width: 300px;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+li {
+    background-color: #c66376;
+    margin: 10px;
+    padding: 5px;
+}
+
+li span {
+    background-color: #9e354a;
+}
