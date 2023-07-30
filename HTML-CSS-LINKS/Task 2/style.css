@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+ul {
+    color: #fff;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #808080;
+}
+
+li {
+    height: 100px;
+    position: relative;
+}
+
+li:hover {
+    background-color: #5e5e5e;
+    transition: 0.2s;
+}
+
+span {
+    font-size: larger;
+    position: absolute;
+    top: 40%;
+}

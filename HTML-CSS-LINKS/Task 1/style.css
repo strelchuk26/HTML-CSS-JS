@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+td {
+    display: inline-block;
+}
+
+td  div.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin: 10px;
+}
