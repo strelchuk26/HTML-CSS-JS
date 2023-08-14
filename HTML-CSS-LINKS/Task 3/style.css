@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #9c3b47;
+    color: #fff;
+}
+
+.nav-menu {
+    width: 900px;
+    margin: auto;
+}
+
+.nav-menu h4 {
+    margin-right: 40px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-menu td.link:hover {
+    background-color: #912f3c;
+    transition: 0.3s;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.info-card {
+    background-color: #e6e6e6;
+    padding: 20px;
+    float: right;
+}
+
+.info-card img {
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-card p {
+    font-size: smaller;
+}
+
+.info-card h5, p {
+    margin: 5px;
+}
+
+.text {
+    width: 590px;
+    text-align: justify;
+}
+
+.text span {
+    font-size: smaller;
+}
+
+.text p {
+    margin: 10px 0;
+}
+
+.similar-authors {
+    width: 100%;
+    border: 2px solid rgb(197, 197, 197);
+    padding: 10px;
+}
+
+.similar-authors img {
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.similar-authors p {
+    width: 100px;
+    text-align: center;
+    overflow-wrap: break-all;
+}
