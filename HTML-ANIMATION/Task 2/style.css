@@ -1,0 +1,13 @@
+img {
+    display: block;
+    margin: auto;
+    filter: saturate(0);
+    scale: 70%;
+    transition: 1s ease;
+}
+
+img:hover {
+    filter: saturate(1);
+    scale: 100%;
+    transition: 5s ease;
+}

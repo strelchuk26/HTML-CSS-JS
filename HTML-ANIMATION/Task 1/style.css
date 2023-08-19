@@ -1,0 +1,25 @@
+.bar {
+    position: relative;
+    margin: auto;
+    border: 5px solid orange;
+    width: 500px;
+    height: 75px;
+    overflow: hidden;
+}
+
+.square {
+    position: absolute;
+    background-color: orange;
+    width: 75px;
+    height: 75px;
+    animation: 2s cycle linear infinite;
+}
+
+@keyframes cycle {
+    from {
+        left: -15%;
+    }
+    to {
+        left: 100%;
+    }
+}

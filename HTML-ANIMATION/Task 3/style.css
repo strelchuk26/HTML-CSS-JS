@@ -1,0 +1,103 @@
+body {
+    background-color: #fcfad3;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.images {
+    text-align: center;
+}
+
+.images img {
+    position: absolute;
+}
+
+.calc {
+    animation: 2s calc 0s normal both;
+}
+
+.book {
+    animation: 2s book .5s normal both;
+}
+
+.paper {
+    animation: 2s paper 1s normal both;
+}
+
+.palette {
+    animation: 2s palette 1.5s normal both;
+}
+
+.pencil {
+    animation: 2s pencil 2s normal both;
+}
+
+@keyframes calc {
+    from {
+        transform: translateY(1000px);
+        top: 0;
+        left: 50%;
+    }
+    to {
+        top: 40%;
+        left: 15%;
+        transform: rotate(-45deg) scale(80%);
+    }
+}
+
+@keyframes book {
+    from {
+        transform: translateY(1000px);
+        top: 0;
+        left: 50%;
+    }
+    to {
+        top: 25%;
+        left: 30%;
+        transform: rotate(-25deg);
+    }
+}
+
+@keyframes paper {
+    from {
+        transform: translateY(1000px);
+        top: 0;
+        left: 50%;
+    }
+    to {
+        top: 25%;
+        left: 55%;
+        transform: rotate(25deg);
+    }
+}
+
+@keyframes palette {
+    from {
+        transform: translateY(1000px);
+        top: 0;
+        left: 50%;
+    }
+    to {
+        top: 40%;
+        left: 70%;
+        transform: rotate(45deg) scale(80%);
+    }
+}
+
+
+@keyframes pencil {
+    from {
+        transform: translateY(1000px);
+        top: 0;
+        left: 46.5%;
+    }
+    to {
+        transform: rotate(90deg);
+        top: 60%;
+        left: 46.5%;
+    }
+}
