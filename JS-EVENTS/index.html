@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>JS EVENTS</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Car table</h1>
+        <form>
+            <h1></h1>
+            <div class="mb-3">
+                <label for="nameInput" class="form-label">Name</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Enter model name">
+              </div>
+              <div class="mb-3">
+                <label for="yearInput" class="form-label">Year</label>
+                <input type="number" min="1970" class="form-control" id="yearInput" placeholder="Enter model year">
+              </div>
+              <div class="mb-3">
+                <label for="priceInput" class="form-label">Price</label>
+                <input type="number" class="form-control" id="priceInput" placeholder="Enter car price">
+              </div>
+    
+              <button id="create-btn" type="button" class="btn btn-success">Create</button>
+              <button type="reset" class="btn btn-secondary">Reset</button>
+
+              <div class="search mt-3 text-center">
+                <input id="searchInput" type="text" class="form-control" placeholder="Enter model name to search">
+                <button id="clear-btn" type="button" class="btn btn-danger mt-3">Clear</button>
+                <button id="search-btn" type="button" class="btn btn-warning mt-3">Search</button>
+                <button id="showItems-btn" type="button" class="btn btn-success mt-3">Show items</button>
+              </div>
+        </form>
+        <table id="product-table" class="table table-striped table-hover mt-3">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Model name</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
