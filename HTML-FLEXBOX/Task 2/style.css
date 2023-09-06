@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 800px;
+    display: grid;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.message, .my-message {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.contact-info {
+    display: grid;
+}
+
+.contact-info .info {
+    margin-top: 10px;
+}
+
+.contact-info .info span {
+    font-size: smaller;
+    color: #9c9fa0;
+}
+
+.message .contact-info {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-template-columns: 2fr 1fr;
+}
+
+.my-message .contact-info {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-template-columns: 1fr 2fr;
+}
+
+.my-message .contact-info .info {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.message .message-text {
+    background-color: #ffb6c1;
+    border-radius: 20px 20px 20px 0px;
+    padding: 20px;
+    grid-column-start: 2;
+}
+
+.my-message .message-text {
+    background-color: #add9e6;
+    border-radius: 20px 20px 00px 20px;
+    padding: 20px;
+    grid-column-start: 2;
+}
