@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #0f4372;
+    color: #fff;
+    width: 100%;
+    height: 75px;
+}
+
+header .content {
+    height: 75px;
+    width: 900px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .content a {
+    color: #fff;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+h6 {
+    font-weight: bold;
+    color: #0f4372;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.radio-label {
+    display: flex;
+    gap: 20px;
+}
+
+.header-filters-inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-filters-inputs input {
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-filters-inputs button {
+    background-color: #0f4372;
+    color: #fff;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.filters {
+    background-color: #fff;
+    width: 250px;
+    padding: 40px;
+}
+
+.filters .filter-price {
+    display: flex;
+}
+
+.filters .filter-price input {
+    width: 75px;
+}
+
+.min-price, .max-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.min-price {
+    margin-right: 30px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.flights-info {
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+thead {
+    background-color: #f5f5f5;
+    color: #0f4372;
+}
+
+th {
+    text-align: center;
+}
+
+td .cell {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+td .cell p {
+    margin: 0;
+}
+
+td .cell span {
+    font-size: smaller;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+td .cell a {
+    font-size: smaller;
+    margin-top: 5px;
+}
+
+td .cell button {
+    background-color: #0f4372;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.flights-info .header {
+    padding: 20px;
+}

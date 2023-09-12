@@ -1,0 +1,87 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    background-image: url(./images/bg.jpg);
+    color: white;
+}
+
+.container {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    width: 800px;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    margin-left: 10px;
+    outline: none;
+    transition: 0.2s;
+}
+
+input:focus {
+    outline: solid rgba(223, 0, 216, 1);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+
+.labels {
+    font-size: 20px;
+    display: grid;
+    grid-template-rows: repeat(5, 60px);
+}
+
+.inputs {
+    display: grid;
+    grid-template-rows: repeat(6, 50px);
+    gap: 10px;
+}
+
+.inputs div {
+    display: flex;
+}
+
+.submit-button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.submit-button button {
+    width: 300px;
+    height: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    background: transparent;
+    transition: 0.2s;
+}
+
+.submit-button button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border: 5px solid rgba(223, 0, 216, 1);
+}
