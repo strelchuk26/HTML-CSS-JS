@@ -1,0 +1,12 @@
+img {
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sort {
+    display: flex;
+    gap: 10px;
+}
