@@ -1,5 +1,5 @@
 <div class="container">
-    <h1>My To Do List</h1>
+    <h1>MY TO DO LIST</h1>
     <ul class="todo_list">
         <li [ngClass]="{'done' : task.isDone}" *ngFor="let task of tasks">
             <img (click)="makeDone($event, task)" [src]="task.isDone ? 'assets/icons/checked.png' : 'assets/icons/unchecked.png'">

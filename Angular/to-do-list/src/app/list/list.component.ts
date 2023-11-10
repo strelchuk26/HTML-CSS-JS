@@ -7,20 +7,34 @@ import { ITask } from '../../task';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent {
-    tasks: ITask[] = [
-      {
-        id: 1,
-        text: "Go to the GYM",
-        isDone: false,
-        isImportant: true,
-        deadline: new Date("2023-11-10")
-      },
-      {
-        id: 2,
-        text: "Go to the store",
-        isDone: false,
-        isImportant: false,
-        deadline: new Date("2023-11-11")
+  tasks: ITask[] = [
+    {
+      id: 1,
+      text: "Go to the GYM",
+      isDone: false,
+      isImportant: true,
+      deadline: new Date("2023-11-10")
+    },
+    {
+      id: 2,
+      text: "Go to the store",
+      isDone: false,
+      isImportant: false,
+      deadline: new Date("2023-11-11")
+    },
+    {
+      id: 1,
+      text: "Go to the GYM",
+      isDone: false,
+      isImportant: true,
+      deadline: new Date("2023-11-10")
+    },
+    {
+      id: 1,
+      text: "Go to the GYM",
+      isDone: false,
+      isImportant: true,
+      deadline: new Date("2023-11-10")
     }
   ]
 
@@ -34,6 +48,6 @@ export class ListComponent {
     else {
       task.isDone = true;
       target.parentElement?.classList.add("done");
-    } 
+    }
   }
 }
