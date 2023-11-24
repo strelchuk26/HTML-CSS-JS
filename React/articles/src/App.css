@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.Articles {
+  width: 900px;
+  display: grid;
+  margin: 0 auto;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
