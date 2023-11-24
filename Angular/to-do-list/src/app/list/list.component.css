@@ -1,3 +1,7 @@
+* {
+    color: #fff;
+}
+
 h1 {
     text-align: center;
     color: #fff;
@@ -13,64 +17,17 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.wrapper {
+    display: flex;
+}
+
 ul.todo_list {
     list-style: none;
-    width: 600px;
+    width: 500px;
     border-radius: 6px;
     padding: 0;
     overflow: hidden;
     background: transparent;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-}
-
-.todo_list .important::before {
-    content: "!";
-    margin-right: 5px;
-    color: darkred;
-    display: inline-block;
-}
-
-.todo_list li {
-    color: #fff;
-    padding: 12px;
-    list-style: none;
-    line-height: 30px;
-    display: block;
-    transition: 0.3s;
-}
-
-.todo_list li .deadline {
-    background: rgba( 255, 255, 255, 0.2 );
-    color: #fff;
-    border-radius: 3px;
-    padding: 2px 4px;
-    margin-left: 10px;
-}
-
-.todo_list li img {
-    vertical-align: middle;
-    margin-right: 10px;
-    filter: invert(100%);
-}
-
-.todo_list li:hover {
-    filter: brightness(110%);
-    cursor: pointer;
-    padding: 12px 20px;
-}
-
-.todo_list>li:nth-child(even) {
-    background: rgba( 255, 255, 255, 0.35 );
-    backdrop-filter: blur( 4px );
-}
-
-.todo_list>li:nth-child(odd) {
-    background: rgba( 255, 255, 255, 0.25 );
-}
-
-.todo_list li.done {
-    background: rgba( 0, 0, 0, 0.1 );
-    text-decoration: line-through;
-    text-decoration-thickness: 2px;
-    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    margin: 0;
 }

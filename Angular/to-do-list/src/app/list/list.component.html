@@ -1,10 +1,11 @@
 <div class="container">
     <h1>MY TO DO LIST</h1>
-    <ul class="todo_list">
-        <li [ngClass]="{'done' : task.isDone}" *ngFor="let task of tasks">
-            <img (click)="makeDone($event, task)" [src]="task.isDone ? 'assets/icons/checked.png' : 'assets/icons/unchecked.png'">
-            <span [ngClass]="{'important' : task.isImportant}" class="text-wrapper">{{task.text}}</span>
-            <span class="deadline">{{task.deadline.toLocaleDateString()}}</span>
-        </li>
-    </ul>
+    <div class="wrapper">
+        <div>
+            <ul class="todo_list">
+                <app-task *ngFor="let i of tasks" [task]="i"></app-task>
+            </ul>
+        </div>
+        <app-add-new-task (createEvent)="addTask($event)"></app-add-new-task>
+    </div>
 </div>
